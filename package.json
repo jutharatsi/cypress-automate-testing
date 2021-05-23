@@ -1,0 +1,26 @@
+{
+    "dependencies": {
+        "cypress": "^5.6.0",
+        "moment": "^2.29.1",
+        "moment-timezone": "^0.5.33",
+        "mysql": "^2.18.1",
+        "npx": "^10.2.2"
+    },
+    "devDependencies": {
+        "allure-mocha": "^2.0.0-beta.8",
+        "cypress-cucumber-preprocessor": "^2.5.5",
+        "cypress-dark": "^1.7.14",
+        "cypress-xpath": "^1.6.1",
+        "mocha": "^8.2.0",
+        "mocha-allure-reporter": "^1.4.0",
+        "mocha-multi-reporters": "^1.1.7",
+        "mochawesome": "^6.1.1"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
+    },
+    "scripts": {
+        "cypress:open": "cypress open",
+        "test:example": "cypress run -r mocha-allure-reporter -s 'cypress/integration/example.js'"
+    }
+}

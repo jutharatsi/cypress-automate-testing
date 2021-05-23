@@ -1,0 +1,13 @@
+{
+    "baseUrl": "127.0.0.1",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": true,
+        "json": true
+    },
+    "env": {
+        "ENVIRONMENT": "local",
+        "CYPRESS_RETRIES": 2
+    }
+}

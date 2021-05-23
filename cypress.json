@@ -1,0 +1,26 @@
+{
+  "testFiles": "**/*.{feature,features,spec.js,js}",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  },
+  "env": {
+    "db": {
+      "host": "127.0.0.1",
+      "port": "3306",
+      "user": "root",
+      "password": "password",
+      "database": "wkc"
+    },
+    "name": "local"
+  },
+  "theme": "dark"
+  
+}
