@@ -1,0 +1,9 @@
+node_modules
+cypress/fixtures
+cypress/screenshots
+cypress/support
+cypress/videos
+allure-results
+mochawesome-report
+package-lock.json
+*.log
